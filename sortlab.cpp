@@ -103,9 +103,9 @@ int main() {
 		}
 		if (a == 3) {
 			memcpy(copy, mas, sizeof(int) * size);
-			for (int i = 0; i < size; ++i) {
+			/*for (int i = 0; i < size; ++i) {
 				printf("%d ", mas[i]);
-			}
+			}*/
 			start = clock();
 			Insertion(copy, size);
 			end = clock();
