@@ -127,6 +127,8 @@ int main() {
 	if (mas) {
 		free(mas);
 	}
-
+	if (copy){
+		free(copy);
+	}
 	return 0;
 }
